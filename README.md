@@ -23,10 +23,8 @@
     - 请前往 [Python 官方网站](https://www.python.org/downloads/release/python-360/) 下载并安装 Python 3.6。
 
 2. **配置 PyCharm**：
-    - 下载并安装 [PyCharm](https://www.jetbrains.com/pycharm/download/)，并根据项目需要安装相应的 Python 库。例如，您可以从 `requirements.txt` 文件中安装所有依赖库：
-      ```bash
-      pip install -r requirements.txt
-      ```
+    - 下载并安装 [PyCharm](https://www.jetbrains.com/pycharm/download/)，并根据项目需要安装相应的 Python 库。例如，您可以从 pycharm IDE所给出的提示安装所需要的库。：
+     
 
 3. **准备 Neo4j 环境**：
     - 请前往 [Neo4j 官方网站](https://neo4j.com/download/) 下载并安装 Neo4j，并确保其正常运行。
@@ -35,7 +33,7 @@
 
 1. **克隆项目**：
     ```bash
-    git clone https://github.com/yourusername/weibo-crawler.git
+    git clone https://github.com/antirollfighter/-.git
     cd weibo-crawler
     ```
 
@@ -45,9 +43,13 @@
 3. **导入 Neo4j**：
     - 运行相关脚本，将转发关系数据导入 Neo4j 图数据库，并进行可视化操作。
 
+## 注意事项
+
+该项目是学校期末大作业。由于没学过 Python 加之时间不足，了解网络爬虫思路后，代码部分来自网络开源爬虫项目。
+
 ## 贡献
 
-欢迎提交 issue 或 pull request 来改善本项目。如有任何问题，请联系项目维护者。
+欢迎提交 issue 或 pull request 来改善本项目。
 
 ---
 
